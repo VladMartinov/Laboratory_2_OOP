@@ -8,6 +8,10 @@ class DrawableRect extends Rectangle {
         this.outColor = outColor;
     }
 
+    public void setColor(Color outColor) {
+        this.outColor = outColor;
+    }
+
     public void draw(Graphics g) {
         g.setColor(outColor);
         g.drawRect(x1, y1, x2 - x1, y2 - y1);

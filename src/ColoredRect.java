@@ -8,6 +8,10 @@ class ColoredRect extends DrawableRect {
         this.inColor = inColor;
     }
 
+    public void setInColor(Color inColor) {
+        this.inColor = inColor;
+    }
+
     @Override
     public void draw(Graphics g) {
         g.setColor(inColor);
